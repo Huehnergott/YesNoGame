@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YES or NO?</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_polls">Polls</string>
+    <string name="lbl_poll_title">Poll title</string>
+    <string name="lbl_poll_question">Poll question</string>
+    <string name="lbl_votes">Votes</string>
+    <string name="btn_vote">Vote</string>
+    <string name="btn_close_poll">Close poll</string>
+    <string name="btn_poll_result">See result</string>
+    <string name="btn_create_poll">Start a new poll</string>
+    <string name="lbl_no_name">unknown</string>
+    <string name="question_title_username">What is your name?</string>
+    <string name="msg_empty_field">One or more fields are empty.</string>
+    <string name="msg_poll_init_failed">Poll creation failed. Maybe the title is already in use.</string>
+    <string name="msg_poll_vote_failed">Voting on poll failed. Maybe you voted already.</string>
+    <string name="title_activity_init_poll">YES or NO? - Create a poll</string>
+    <string name="title_activity_vote">YES or NO? - Your vote please!</string>
+    <string name="title_activity_poll_result">YES or NO? - Poll result</string>
+    <string name="lbl_NO">NO</string>
+    <string name="lbl_YES">YES</string>
+
+</resources>

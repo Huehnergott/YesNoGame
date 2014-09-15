@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VoteActivity" >
+
+    <TextView
+        android:id="@+id/vote_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="0.0"
+        android:text="@string/lbl_no_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/vote_tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_poll_title"
+        android:layout_marginBottom="10dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/vote_tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/lbl_poll_question"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0" >
+
+        <TextView
+            android:id="@+id/vote_tvNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/yes_no_label_top_bottom"
+            android:paddingLeft="@dimen/yes_no_label_left_right"
+            android:paddingRight="@dimen/yes_no_label_left_right"
+            android:paddingTop="@dimen/yes_no_label_top_bottom"
+            android:text="@string/lbl_NO"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <SeekBar
+            android:id="@+id/vote_seekBar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:max="100"
+            android:paddingBottom="@dimen/yes_no_label_top_bottom"
+            android:paddingTop="@dimen/yes_no_label_top_bottom"
+            android:progress="50" >
+        </SeekBar>
+
+        <TextView
+            android:id="@+id/vote_tvYES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/yes_no_label_top_bottom"
+            android:paddingLeft="@dimen/yes_no_label_left_right"
+            android:paddingRight="@dimen/yes_no_label_left_right"
+            android:paddingTop="@dimen/yes_no_label_top_bottom"
+            android:text="@string/lbl_YES"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vote_btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/vote_btnVote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_vote" />
+    </LinearLayout>
+
+</LinearLayout>

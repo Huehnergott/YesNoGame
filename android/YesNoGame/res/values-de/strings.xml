@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JA oder NEIN?</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="lbl_polls">Umfragen</string>
+    <string name="lbl_poll_title">Titel</string>
+    <string name="lbl_poll_question">Frage</string>
+    <string name="lbl_votes">Stimmen</string>
+    <string name="btn_vote">Abstimmen</string>
+    <string name="btn_close_poll">Umfrage schließen</string>
+    <string name="btn_poll_result">Umfrageergebnis</string>
+    <string name="btn_create_poll">Starte neue Umfrage</string>
+    <string name="lbl_no_name">unbekannt</string>
+    <string name="question_title_username">Wie ist Dein Name?</string>
+    <string name="msg_empty_field">Eines oder mehrere Felder sind leer.</string>
+    <string name="msg_poll_init_failed">Umfrage konnte nicht erstellt werden. Möglicherweise ist der Titel bereits vergeben.</string>
+    <string name="msg_poll_vote_failed">Abstimmung fehlgeschlagen. Vielleicht haben Sie bereits gewählt?</string>
+    <string name="title_activity_init_poll">JA oder NEIN? - Umfrage erstellen</string>
+    <string name="title_activity_vote">JA oder NEIN? - Ihre Stimme bitte!</string>
+    <string name="title_activity_poll_result">JA oder NEIN? - Umfrageergebnis</string>
+    <string name="lbl_NO">NEIN</string>
+    <string name="lbl_YES">JA</string>
+
+</resources>
